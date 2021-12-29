@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<listeners>
+    <listener class-name="test.listeners.TestNGListener"></listener>
+    <listener class-name="test.listeners.AnnotationTransformer"></listener>
+</listeners>
+    <test verbose="2" preserve-order="true" name="/Users/cb-sarathkumar/work/cb-ui-middleware/GensparkMavenUI">
+        <classes>
+            <class name="test.java.TestLeaf1">
+                <methods>
+                    <include name="ToolTip"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
